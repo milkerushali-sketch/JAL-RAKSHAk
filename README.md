@@ -355,7 +355,6 @@ This project is developed for water quality management and distribution.
 - AI & ML Development Team
 - Mobile Development Team
 
----
 
 **Last Updated**: February 21, 2026
 **Version**: 1.0.0
