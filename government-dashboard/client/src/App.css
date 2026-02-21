@@ -1,0 +1,104 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+}
+
+.App {
+  width: 100%;
+  height: 100%;
+}
+
+/* Portal Select Screen */
+.portal-select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.select-container {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.select-container h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.select-container p {
+  font-size: 18px;
+  margin-bottom: 50px;
+  opacity: 0.9;
+}
+
+.portal-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.portal-button {
+  background: white;
+  border: none;
+  border-radius: 15px;
+  padding: 40px 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.portal-button:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.portal-button .icon {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.portal-button h2 {
+  margin: 0 0 10px 0;
+  color: #333;
+  font-size: 24px;
+}
+
+.portal-button p {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .select-container h1 {
+    font-size: 36px;
+  }
+
+  .portal-options {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .portal-button {
+    padding: 30px 20px;
+  }
+}

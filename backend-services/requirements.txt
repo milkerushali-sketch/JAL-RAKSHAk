@@ -1,0 +1,8 @@
+tensorflow==2.13.0
+tensorflow-lite==2.13.0
+numpy==1.24.3
+opencv-python==4.8.0.74
+paho-mqtt==1.7.1
+sqlite3
+requests==2.31.0
+python-dotenv==1.0.0
